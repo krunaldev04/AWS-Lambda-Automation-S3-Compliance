@@ -99,7 +99,7 @@ def send_s3_mail(buckets):
     ses_client.send_email(
         Source = 'partha.abdas@gmail.com',
         Destination = {
-            'ToAddresses': ['shubhshubh2480@gmail.com']
+            'ToAddresses': ['krunal.bw@gmail.com']
         },
         Message = {
             'Subject': {
